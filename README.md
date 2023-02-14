@@ -1,3 +1,6 @@
+# Firebase Deployed URL 
+https://angular-realestate-app-524fa.web.app/
+
 # AngularGymRegistrationApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
