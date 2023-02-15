@@ -1,0 +1,25 @@
+mat-form-field{
+width: 100%;
+}
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+  input{
+    padding: 0.75em;
+    border-radius: 5px;
+    border-color: rgb(231, 231, 231);
+    color: rgb(172, 172, 172);
+    border-width: 1px;
+  }
+}
