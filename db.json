@@ -20,6 +20,43 @@
       "haveGymBefore": "Yes",
       "enquiryDate": "2023-02-16",
       "id": 1
+    },
+    {
+      "firstName": "nalinda",
+      "lastName": "kumara",
+      "email": "kumaraebay76@gmail.com",
+      "mobile": "0719591462",
+      "weight": 2121,
+      "height": 212,
+      "bmi": 0.047192061231755074,
+      "bmiResult": "Under Weight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quartely",
+      "important": [
+        "Healthier Digestive System",
+        "Sugar Craving Body"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-16",
+      "id": 2
+    },
+    {
+      "firstName": "Samith",
+      "lastName": "Aberathne",
+      "email": "samithvinurakck119@gmail.com",
+      "mobile": "0719591462",
+      "weight": 121,
+      "height": 2,
+      "bmi": 30.25,
+      "bmiResult": "Obese",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "",
+      "important": "",
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-02-15",
+      "id": 3
     }
   ]
 }
