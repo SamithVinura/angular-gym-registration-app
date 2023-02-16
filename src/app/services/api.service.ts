@@ -7,7 +7,7 @@ import { User } from '../models/user.model';
 })
 export class ApiService {
 
-  public baseUrl:string = 'https://angular-gymregistration-b3ada-default-rtdb.firebaseio.com/users.json'
+  public baseUrl:string = 'http://localhost:3000/enquiry'
 
   constructor(private http:HttpClient) { }
 
@@ -19,15 +19,15 @@ export class ApiService {
     return this.http.get<User[]>(`${this.baseUrl}`)
   }
 
-  updateRegisterUser(registerObj:User,id:string){
+  updateRegisterUser(registerObj:User,id:number){
     return this.http.put<User>(`${this.baseUrl}/${id}`,registerObj)
   }
 
-  deleteRegisterUser(id:string){
+  deleteRegisterUser(id:number){
     return this.http.delete<User>(`${this.baseUrl}/${id}`)
   }
 
-  getRegisterUserId(id:string){
+  getRegisterUserId(id:number){
     return this.http.get<User>(`${this.baseUrl}/${id}`)
   }
 }
