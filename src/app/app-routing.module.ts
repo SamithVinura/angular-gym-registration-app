@@ -5,7 +5,8 @@ import { RegistrationListComponent } from './components/registration-list/regist
 import { UserDetailComponent } from './components/user-detail/user-detail.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'register',pathMatch:'full'},
+  {path:'',redirectTo:'home',pathMatch:'full'},
+  {path:'register',component:CreateRegistrationComponent},
   {path:'register',component:CreateRegistrationComponent},
   {path:'list',component:RegistrationListComponent},
   {path:'detail/:id',component:UserDetailComponent},

@@ -1,3 +1,23 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+.nav{
+  height: 9vh;
+}
+body {
+
+  background: linear-gradient(#b10404, #ffc23d);
+}
+.home{
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(#b10404, #ffc23d);
+  position: fixed;
+
+  z-index: 6;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+
+}
