@@ -137,6 +137,7 @@
         <input formControlName="enquiryDate" type="date" id="birthday" name="birthday" >
       </div>
     </div>
-    <button class="mt-4" (click)="submit()" mat-raised-button color="accent">Submit</button>
+    <button *ngIf="!isUpdate" class="mt-4" (click)="submit()" mat-raised-button color="accent">Submit</button>
+    <button *ngIf="isUpdate" class="mt-4" (click)="update()" mat-raised-button color="accent">Update</button>
   </form>
 </div>

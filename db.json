@@ -1,47 +1,6 @@
 {
   "enquiry": [
     {
-      "firstName": "nalinda",
-      "lastName": "kumara",
-      "email": "kumaraebay76@gmail.com",
-      "mobile": "0719591462",
-      "weight": 21,
-      "height": 32,
-      "bmi": 0.0205078125,
-      "bmiResult": "Under Weight",
-      "gender": "Male",
-      "requireTrainer": "Yes",
-      "package": "Quartely",
-      "important": [
-        "Energy and Endurance",
-        "Building Lean Muscle",
-        "Healthier Digestive System"
-      ],
-      "haveGymBefore": "Yes",
-      "enquiryDate": "2023-02-16",
-      "id": 1
-    },
-    {
-      "firstName": "nalinda",
-      "lastName": "kumara",
-      "email": "kumaraebay76@gmail.com",
-      "mobile": "0719591462",
-      "weight": 2121,
-      "height": 212,
-      "bmi": 0.047192061231755074,
-      "bmiResult": "Under Weight",
-      "gender": "Male",
-      "requireTrainer": "Yes",
-      "package": "Quartely",
-      "important": [
-        "Healthier Digestive System",
-        "Sugar Craving Body"
-      ],
-      "haveGymBefore": "Yes",
-      "enquiryDate": "2023-02-16",
-      "id": 2
-    },
-    {
       "firstName": "Samith",
       "lastName": "Aberathne",
       "email": "samithvinurakck119@gmail.com",
@@ -52,10 +11,12 @@
       "bmiResult": "Obese",
       "gender": "Male",
       "requireTrainer": "Yes",
-      "package": "",
-      "important": "",
+      "package": "Quartely",
+      "important": [
+        "Fitness"
+      ],
       "haveGymBefore": "Yes",
-      "enquiryDate": "2023-02-15",
+      "enquiryDate": "2023-02-17",
       "id": 3
     }
   ]
