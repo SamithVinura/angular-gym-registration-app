@@ -1,5 +1,3 @@
-# Firebase Deployed URL 
-https://angular-realestate-app-524fa.web.app/
 
 # AngularGymRegistrationApp
 
